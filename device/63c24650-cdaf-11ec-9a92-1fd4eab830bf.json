@@ -1,0 +1,92 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "createdTime" : 1651891371829,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "63a91900-cdaf-11ec-9a92-1fd4eab830bf"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "63c24650-cdaf-11ec-9a92-1fd4eab830bf"
+    },
+    "label" : null,
+    "name" : "Sim_Dashboard_Test",
+    "ownerId" : null,
+    "softwareId" : null,
+    "tenantId" : null,
+    "type" : "Temperature and Humidity"
+  },
+  "credentials" : {
+    "credentialsId" : "IqHLc7kfMu0iaMR70PkS",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "DeviceCategory",
+      "lastUpdateTs" : 1651891555965,
+      "longValue" : null,
+      "strValue" : "Netvox Temperature & Humidity v2"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1667251910770,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"Temperature\":23.6,\"humidity\":60.95}",
+      "key" : "exampleMsg",
+      "lastUpdateTs" : 1667251301458,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1667251910770,
+      "longValue" : 1667251910770,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1667251300904,
+      "longValue" : 1667251300902,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "settings",
+      "lastUpdateTs" : 1651891555965,
+      "longValue" : null,
+      "strValue" : "{\"useCase\":\"\"}"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
